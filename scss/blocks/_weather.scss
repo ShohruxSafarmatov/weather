@@ -1,0 +1,143 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 24px;
+    padding: 30px 20px;
+    position: relative;
+
+    // &::before {
+    //     content: '';
+    //     display: block;
+    //     width: 150px;
+    //     height: 130px;
+    //     background-color: #fff;
+    //     position: absolute;
+
+    // }
+}
+
+.form {
+    width: 453px;
+    position: relative;
+}
+
+.weather__inp {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #fff;
+    width: 100%;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #fff;
+    border-radius: 24px;
+    padding: 5px 50px 5px 25px;
+}
+
+::placeholder {
+    color: #fff;
+
+}
+
+::-webkit-input-placeholder {
+    /* Chrome */
+    color: #fff;
+
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder {
+    color: #fff;
+}
+
+.form__btn {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+}
+
+.bx-search {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.weather__hero {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+.sub__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+
+}
+
+.text,
+.temp__info-span,
+.temp__info-span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+
+}
+
+.temp__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 120px;
+}
+
+.weather__info {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+
+}
+
+.weather__info-span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
