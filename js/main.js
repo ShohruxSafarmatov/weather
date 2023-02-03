@@ -10,8 +10,7 @@ let updateUi = (weatherCity) => {
     <h2 class="title">${weatherCity.current.temp_c
         }</h2>
     <p class="sub__text">${weatherCity.location.name},${weatherCity.location.country}</p>
-    <p class="text">${weatherCity.location.tz_id
-        }</p>
+
 
     `
 
